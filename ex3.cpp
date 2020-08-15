@@ -1,5 +1,4 @@
 #include<iostream>
-#include <string>
 using namespace std;
 
 int g = 20;
@@ -17,8 +16,8 @@ int main() {
   cout << false << endl;
 
 
-  string a = "Hello, dear";
-  string b = {'h','i'};
+  char a[] = "Hello, dear";
+  char b[] = {'h','i','\0'};
   #define pi 3.14;
   #define c "HALLO";
 
